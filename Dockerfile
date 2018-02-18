@@ -10,4 +10,4 @@ WORKDIR /app
 
 COPY . /app
 
-RUN mvn tomcat7:run
+RUN mvn compile
