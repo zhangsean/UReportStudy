@@ -66,15 +66,6 @@
                 <!-- 名称必须与配置文件的id名称一致 -->
                 <server>tomcat7</server>
             </configuration>
-            <!-- 在打包周期运行tomcat7 -->
-            <executions>
-                <execution>
-                    <phase>package</phase>
-                    <goals>
-                        <goal>run</goal>
-                    </goals>
-                </execution>
-            </executions>
         </plugin>
     </plugins>
   </build>
