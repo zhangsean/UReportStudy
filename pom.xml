@@ -1,18 +1,18 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.sean</groupId>
-  <artifactId>UreportStudy</artifactId>
+  <groupId>com.aek</groupId>
+  <artifactId>UreportDemo</artifactId>
   <packaging>war</packaging>
   <version>0.0.1-SNAPSHOT</version>
   <name>Ureport2 Study</name>
-  <url>http://maven.apache.org</url>
+  <url>http://ureport.aek.com</url>
   <dependencies>
   	<dependency>
       <!-- UReport2依赖 -->
 	    <groupId>com.bstek.ureport</groupId>
 	    <artifactId>ureport2-console</artifactId>
-	    <version>2.2.4</version>
+	    <version>2.2.6-SNAPSHOT</version>
 	  </dependency>
     <dependency>
       <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
@@ -30,11 +30,11 @@
   <repositories>
     <repository>
       <id>sonatype</id>
-      <url>http://nexus.bsdn.org/content/groups/public/</url>
+      <url>https://oss.sonatype.org/content/groups/public/</url>
     </repository>
   </repositories>
   <build>
-    <finalName>UreportStudy</finalName>
+    <finalName>ureport</finalName>
     <plugins>
         <plugin>
         	<!-- 指定编译jdk版本1.7 -->
@@ -55,7 +55,7 @@
             <configuration>
             	<!-- /${project.build.finalName} -->
                 <path>/</path>
-                <port>8080</port>
+                <port>8088</port>
                 <uriEncoding>UTF-8</uriEncoding>
                 <finalName>${project.build.finalName}</finalName>
                 <!-- 名称必须与配置文件的id名称一致 -->
