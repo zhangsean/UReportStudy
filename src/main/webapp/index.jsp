@@ -5,6 +5,6 @@
 <br/>
 <a href="/ureport/designer">UReport2 Designer</a>
 <br/>
-<a href="/ureport/preview?_u=file:account_monthly.ureport.xml">UReport2 Preview: account_monthly</a>
+<a href="/ureport/preview?_u=file:first.ureport.xml">UReport2 Preview: first</a>
 </body>
 </html>
