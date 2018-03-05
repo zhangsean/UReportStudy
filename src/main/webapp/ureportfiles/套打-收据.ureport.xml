@@ -163,4 +163,4 @@ from receive r, receive_item t
 where r.id = t.receive_id
 and r.id = 2]]></sql><field name="id"/><field name="no"/><field name="date"/><field name="customer"/><field name="type"/><field name="amount"/><field name="voucher"/><field name="giver"/><field name="remark"/><field name="saller"/><field name="receive_id"/><field name="summary"/><field name="money"/></dataset></datasource><paper type="A5" left-margin="23" right-margin="23"
     top-margin="14" bottom-margin="14" paging-mode="fixrows" fixrows="13"
-    width="420" height="595" orientation="landscape" html-report-align="left" bg-image="/shouju1.jpg" html-interval-refresh-value="0" column-enabled="false"></paper></ureport>
+    width="420" height="595" orientation="landscape" html-report-align="left" bg-image="../imgs/shouju1.jpg" html-interval-refresh-value="0" column-enabled="false"></paper></ureport>
