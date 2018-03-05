@@ -20,11 +20,16 @@
       <artifactId>mysql-connector-java</artifactId>
       <version>5.1.45</version>
     </dependency>
-    <dependency>
       <!-- https://mvnrepository.com/artifact/com.oracle/ojdbc14 -->
+    <!-- <dependency>
       <groupId>com.oracle</groupId>
       <artifactId>ojdbc14</artifactId>
       <version>10.2.0.3.0</version>
+    </dependency> -->
+    <dependency>
+        <groupId>com.github.noraui</groupId>
+        <artifactId>ojdbc7</artifactId>
+        <version>12.1.0.2</version>
     </dependency>
   </dependencies>
   <repositories>
@@ -61,15 +66,6 @@
                 <!-- 名称必须与配置文件的id名称一致 -->
                 <server>tomcat7</server>
             </configuration>
-            <!-- 在打包周期运行tomcat7 -->
-            <executions>
-                <execution>
-                    <phase>package</phase>
-                    <goals>
-                        <goal>run</goal>
-                    </goals>
-                </execution>
-            </executions>
         </plugin>
     </plugins>
   </build>
